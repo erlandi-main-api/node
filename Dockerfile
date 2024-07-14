@@ -9,5 +9,5 @@ RUN npm install
 
 COPY server.js /usr/src/app/
 
-CMD echo succes
+CMD echo "IP ORI ==> "$(curl ifconfig.me)
 CMD [ "node", "server" ]
