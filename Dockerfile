@@ -9,4 +9,5 @@ RUN npm install
 
 COPY server.js /usr/src/app/
 
+CMD echo succes
 CMD [ "node", "server" ]
