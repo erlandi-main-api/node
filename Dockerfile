@@ -1,4 +1,4 @@
-FROM node:8.6
+FROM phusion/baseimage:bionic-1.0.0
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
